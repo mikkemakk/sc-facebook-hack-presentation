@@ -6,3 +6,5 @@
 - Questions? Hit me on Twitter/SoundCloud/IRC at [Roelven](http://twitter.com/roelven)
 
 Thanks!
+
+<div class="sc_logo"></div>
