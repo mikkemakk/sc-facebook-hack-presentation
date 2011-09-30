@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "resize"
+  ],
+  "transitions": "fade",
+  "theme": "default",
+  "title": "SoundCloud API Presentation",
+  "slides": [
+    "welcome.markdown",
+    "index.markdown",
+    "intro.markdown",
+    "whatissoundcloud.markdown",
+    "appsbuilton.markdown",
+    "howto.markdown",
+    "javascript-connect.markdown",
+    "javascript-connect-2.markdown",
+    "javascript-widget-control.markdown",
+    "javascript-widget-control-2.markdown",
+   "roundup.markdown",
+    "hiring.markdown"
+
+  ]
+}
