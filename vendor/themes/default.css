@@ -36,6 +36,13 @@ strong {
 
 }
 
+.syntaxhighlighter {
+  width: 80% !important;
+  margin: auto !important;
+  padding: 10px;
+  overflow: hidden;
+}
+
 @media all and (max-device-width: 480px) {
   body {
     background: #303030
