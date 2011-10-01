@@ -1,6 +1,5 @@
 # On the menu
 
-* Whoami
 * What is SoundCloud
 * What's on SoundCloud
 * Apps built on SoundCloud
