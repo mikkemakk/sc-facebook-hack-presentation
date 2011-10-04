@@ -1,5 +1,6 @@
 # SoundCloud API presentation
-A slide deck to present the SoundCloud API
+
+A slide deck to present the SoundCloud API.
 
 ## How to use
 
@@ -15,13 +16,13 @@ Make sure you're in the project's folder. This presentation tool relies on a gem
 
     $ gem install shining
 
-The slides are all written in Markdown[2], but you can add HTML in there as well to show code examples. Slides are indexed in config.json, where you can manage the order and some settings.
+The slides are all written in Markdown[2], but you can add HTML in there as well to show code examples. Slides are indexed in `config.json`, where you can manage the order and some settings.
 
 To add a slide, do
 
     $ shine slide SLIDENAME markdown
 
-This will add a new slide to the end of the list, you can correct the order in config.json later.
+This will add a new slide to the end of the list, you can correct the order in `config.json` later.
 
 
 You can start a small server to run your presentation locally, do
@@ -40,7 +41,7 @@ When demonstrating client side code (e.g. iframes), make sure the iframe is pack
 
 ## Bonus: deploy to Heroku!
 
-Ping Roel or Omid to get yourself added to the project as a collaborator. This assumes you have installed the Heroku gem and setup your credentials on your system. If not, head to Heroku[7] and sign up. Test your presentation locally and make sure you've catched all errors and typo's. Deploy to Heroky by doing:
+Ping Roel or Omid to get yourself added to the project as a collaborator. This assumes you have installed the Heroku gem and setup your credentials on your system. If not, head to Heroku[7] and sign up. Test your presentation locally and make sure you've catched all errors and typo's. Deploy to Heroku by doing:
 
     $ shine deploy
 
@@ -66,3 +67,4 @@ Done. View your presentation at http://soundcloud-api-presentation.heroku.com/ a
 [6] [http://soundcloud-api-presentation.heroku.com/](http://soundcloud-api-presentation.heroku.com/)
 
 [7] [http://devcenter.heroku.com/articles/quickstart](http://devcenter.heroku.com/articles/quickstart)
+
