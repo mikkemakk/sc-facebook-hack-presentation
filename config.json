@@ -1,6 +1,7 @@
 {
   "plugins": [
-    "resize"
+    "resize",
+    "iphone"
   ],
   "transitions": "fade",
   "title": "SoundCloud API Presentation",
