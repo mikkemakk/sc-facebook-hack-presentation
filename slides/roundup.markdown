@@ -1,4 +1,4 @@
-## Roundup
+# Roundup
 
 - No authentication needed for reading
 - [Register your app](http://soundcloud.com/you/apps) to connect (and upload)

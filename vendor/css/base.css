@@ -126,7 +126,7 @@ header a.home {
   text-transform: uppercase;
   font-size: 18px;
   position: absolute;
-  background: transparent url(http://developers.soundcloud.com/images/cloud.png) 10px 4px no-repeat;
+  background: transparent url(/vendor/images/cloud.png) 10px 4px no-repeat;
 }
 
 #note {

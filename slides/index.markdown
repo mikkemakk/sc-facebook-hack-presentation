@@ -1,4 +1,4 @@
-## On the menu
+# On the menu
 
 * What is SoundCloud
 * What's on SoundCloud
