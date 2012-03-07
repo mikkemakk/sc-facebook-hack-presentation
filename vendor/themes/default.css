@@ -1,17 +1,24 @@
-body {
-  background: #fff;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#E3EEF8), to(white)) repeat-x, white
-}
 
-h1, h2, h3, p, li {
-  color: #444;
-  text-shadow: #fff 1px 1px 1px
+h2 {
+  color: #06c;
+  font-size: 35px;
+  line-height: 1.3em;
+  margin: 20px 0 10px 0;
 }
 
 a {
-  color: #499DFF;
-  text-decoration: none
+  color: #06c;
+  text-decoration: none;
+  -webkit-transition: background 0.3s linear, color 0.1s linear, border 0.2s linear, box-shadow 0.2s linear;
+  -moz-transition: background 0.3s linear, color 0.1s linear, border 0.2s linear, moz-box-shadow 0.2s linear;
+  -o-transition: background 0.3s linear, color 0.1s linear, border 0.2s linear, box-shadow 0.2s linear;
 }
+
+a:hover {
+  color: #f60;
+  text-decoration: none;
+}
+
 
 ul {
   list-style-type: disc;

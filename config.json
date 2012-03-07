@@ -1,6 +1,5 @@
 {
   "plugins": [
-    "resize",
     "iphone"
   ],
   "transitions": "fade",

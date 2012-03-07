@@ -1,1 +1,1 @@
-![SoundCloud](/vendor/images/soundcloud_logo.png)
+## Building awesome Open Graph integrations

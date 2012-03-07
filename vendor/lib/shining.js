@@ -107,7 +107,7 @@
     $('#help').remove();
     return $('<div id="help"></div>')
       .html(message)
-      .appendTo('body')
+      .appendTo('#main-inner')
       .animate({opacity: 1})
       .delay(duration || 500)
       .fadeOut(200, function() { $('#help').remove(); });
@@ -118,7 +118,7 @@
     $('#note').remove();
     return $('<aside id="note"></div>')
       .html(message)
-      .appendTo('body')
+      .appendTo('#main-inner')
       .animate({marginBottom: 0, opacity: 'toggle'})
       .delay(parseInt(duration, 10) || 500)
       .animate({marginBottom: 10, opacity: 'toggle'});
@@ -180,13 +180,13 @@
   }
 
   function playSlide(name) {
-    $('body')
+    $('#main-inner')
       .queue(function() { Transitions[Shining.config.transitions].leave(); $(this).dequeue(); })
       .queue(function() {
         Shining.scripts.reap();
         var slide = Shining.slides._loaded[name];
         Shining.slides.current(name);
-        $('body').html('<div class="slide">' + slide.markup + '</div>');
+        $('#main-inner').html('<div class="slide">' + slide.markup + '</div>');
         setTimeout(centerSlide, 500);
         trigger('slideplay', [name]);
         $(this).dequeue();
@@ -217,7 +217,7 @@
   }
 
   function centerSlide() {    
-    var top = ($(window).height() - $('div.slide:visible').outerHeight()) / 2;
+    var top = ($(window).height() - $('div.slide:visible').outerHeight()) / 3;
     if (top < 0) top = 0;
     $('div.slide').css({ top: top });
   }
@@ -254,7 +254,7 @@
     loadSlideStyle(name);
     Shining.scripts.runSlide(name);
     if (SyntaxHighlighter) SyntaxHighlighter.highlight({gutter: false, toolbar: false});
-    if ($('body aside').length) setTimeout(function() { note($('body aside').html(), 5000) }, 500);
+    if ($('#main-inner aside').length) setTimeout(function() { note($('#main-inner aside').html(), 5000) }, 500);
   });
 
   when('slidesloaded', function() {

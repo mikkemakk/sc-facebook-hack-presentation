@@ -1,5 +1,17 @@
 /* http://meyerweb.com/eric/tools/css/reset/
 ----------------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Interstate";
+  src: url(Interstate-Light.ttf) format("truetype");
+}
+
+h1, h2, h3, a, input {
+  font-family: Interstate, "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #06C;
+  text-decoration:none;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 margin : 0; padding : 0; border : 0; outline : 0; font-size : 100%; vertical-align : baseline; background : transparent; }
 body { line-height : 1; }
@@ -8,7 +20,7 @@ ol, ul { list-style-type : none; }
 ins { text-decoration : none; }
 del { text-decoration : line-through }
 
-body      { font: 12px/1.5 "Lucida Grande", Tahoma, serif; overflow: hidden !important; text-align: center;}
+body      { text-align: center;}
 div.slide { display: none; position: relative ;}
 
 .no-text-shadow { text-shadow: none }
@@ -71,6 +83,50 @@ aside, .step { display: none }
   p, li { font-size: 1.6em }
   p     { margin: 0.5em 0 }
   .step { display: inline-block }
+}
+
+header {
+  background: #f60;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f60), to(#f30)) repeat-x, #f30;
+  background: -moz-linear-gradient(#f60, #f30);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6600', endColorstr='#ff3300');
+  padding: 6px 0px 10px 30px;
+  height: 28px;
+}
+
+#main {
+  position: relative;
+  padding: 0 0 30px 0;
+  z-index: 99999;
+  background: #fff;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#E3EEF8), to(white)) repeat-x, white;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);    
+  overflow: hidden;
+}
+
+#main #main-inner {
+  width: 850px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#main #main-inner #content.wide-content {
+  float: none;
+  width: 850px;
+}
+
+header a.home {
+  color: #fff;
+  height: 28px;
+  padding: 8px 10px 20px 65px;
+  top: 6px;
+  left: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: absolute;
+  background: transparent url(http://developers.soundcloud.com/images/cloud.png) 10px 4px no-repeat;
 }
 
 #note {
