@@ -1,4 +1,4 @@
-# On the menu
+## On the menu
 
 * What is SoundCloud
 * What's on SoundCloud
@@ -6,5 +6,3 @@
 * How can YOU build stuff using SoundCloud
 * Examples + resources
 * Roundup
-
-<div class="sc_logo"></div>
