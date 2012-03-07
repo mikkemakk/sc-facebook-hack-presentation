@@ -218,6 +218,7 @@
 
   function centerSlide() {    
     var top = ($(window).height() - $('div.slide:visible').outerHeight()) / 3;
+    $('div#main').css({ height: $(window).height() - $('header').height() - 45});
     if (top < 0) top = 0;
     $('div.slide').css({ top: top });
   }

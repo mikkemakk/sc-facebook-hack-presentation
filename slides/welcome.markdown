@@ -1,1 +1,1 @@
-## Building awesome Open Graph integrations
+## Building an awesome Open Graph integration
