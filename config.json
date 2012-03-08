@@ -3,8 +3,8 @@
     "iphone"
   ],
   "transitions": "fade",
-  "theme": "default",
   "title": "SoundCloud Facebook OG presentation",
+  "theme": "default",
   "slides": [
     "welcome.markdown",
     "index.markdown",
@@ -12,6 +12,7 @@
     "whatissoundcloud-2.markdown",
     "integratewithfacebook.markdown",
     "integratewithfacebook-2.markdown",
+    "onmobile.markdown",
     "roundup.markdown"
   ]
 }
