@@ -2,7 +2,8 @@
 
 * What is SoundCloud
 * What's on SoundCloud
-* Apps built on SoundCloud
-* How can YOU build stuff using SoundCloud
-* Examples + resources
+* Timeline integration?
+* What's the effect?
+* How does it work
+* Example / best practices
 * Roundup
