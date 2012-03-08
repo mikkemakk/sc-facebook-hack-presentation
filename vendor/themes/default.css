@@ -55,10 +55,9 @@ strong {
 }
 
 .syntaxhighlighter {
-  width: 80% !important;
+  white-space: nowrap;
+  width: 60% !important;
   margin: auto !important;
-  padding: 10px;
-  overflow: hidden;
 }
 
 @media all and (max-device-width: 480px) {
