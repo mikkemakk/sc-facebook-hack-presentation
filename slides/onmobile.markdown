@@ -1,3 +1,3 @@
 # On mobile
 
-Pull users in via mobile platforms
+![Facebook to SoundCloud iOS app](/vendor/images/sc_fb_native_apps.png)
